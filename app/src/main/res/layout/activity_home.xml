@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="1"
+    >
+
+    <!-- Display Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Displays User Data"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        />
+<TextView
+android:id="@+id/tv_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Name: "
+android:textSize="24sp"
+android:layout_marginBottom="8dp"/>
+
+    <!-- Display Email -->
+<TextView
+android:id="@+id/tv_email"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Email: "
+android:textSize="24sp"
+android:layout_marginBottom="8dp"/>
+
+    <!-- Display Age -->
+<TextView
+android:id="@+id/tv_age"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Age: "
+android:textSize="24sp"
+android:layout_marginBottom="16dp"/>
+
+    <!-- Button to Add Team Members -->
+<Button
+android:id="@+id/team_members"
+android:text="Add Team Members"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+android:textColor="@android:color/white"
+android:padding="12dp"/>
+
+    <!-- Button to Show Team Members -->
+<Button
+android:id="@+id/show_members"
+android:text="Show Team Members"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+android:backgroundTint="@color/common_google_signin_btn_text_dark_focused"
+android:textColor="@android:color/white"
+android:padding="12dp"/>
+
+    </LinearLayout>

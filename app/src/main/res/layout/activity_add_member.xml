@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Input field for Team Member Name -->
+    <EditText
+        android:id="@+id/et_team_member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Member Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Input field for Team Member Email -->
+    <EditText
+        android:id="@+id/et_team_member_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Team Member Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to add the team member -->
+    <Button
+        android:id="@+id/btn_add_team_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Team Member"/>
+
+</LinearLayout>
